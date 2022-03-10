@@ -9,11 +9,11 @@ The output was:
 Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-Сборка начата 10.03.2022 19:35:11.
-Проект "F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+Сборка начата 10.03.2022 20:03:06.
+Проект "F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj]
   Создание каталога "Debug\CompilerIdC.tlog\".
 InitializeBuildStatus:
   Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -22,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -30,25 +30,25 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
   Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Сборка проекта "F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+Сборка проекта "F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
 
 Сборка успешно завершена.
 
-"F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (целевой объект по умолчанию) (1) ->
+"F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (целевой объект по умолчанию) (1) ->
 (Целевой объект PrepareForBuild) -> 
-  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj]
 
     Предупреждений: 1
     Ошибок: 0
 
-Прошло времени 00:00:01.25
+Прошло времени 00:00:00.97
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "F:/Projects/C++/engine/engline-learn/build/CMakeFiles/3.23.0-rc1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "F:/Projects/C++/engine/engine-learn/build/CMakeFiles/3.23.0-rc1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -60,11 +60,11 @@ The output was:
 Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-Сборка начата 10.03.2022 19:35:13.
-Проект "F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+Сборка начата 10.03.2022 20:03:07.
+Проект "F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
   Создание каталога "Debug\CompilerIdCXX.tlog\".
 InitializeBuildStatus:
   Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -73,7 +73,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -81,53 +81,53 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
   Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Сборка проекта "F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+Сборка проекта "F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
 
 Сборка успешно завершена.
 
-"F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (целевой объект по умолчанию) (1) ->
+"F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (целевой объект по умолчанию) (1) ->
 (Целевой объект PrepareForBuild) -> 
-  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
 
     Предупреждений: 1
     Ошибок: 0
 
-Прошло времени 00:00:00.82
+Прошло времени 00:00:00.75
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "F:/Projects/C++/engine/engline-learn/build/CMakeFiles/3.23.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "F:/Projects/C++/engine/engine-learn/build/CMakeFiles/3.23.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/Projects/C++/engine/engline-learn/build/CMakeFiles/CMakeTmp
+Change Dir: F:/Projects/C++/engine/engine-learn/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_758e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8feb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\CMakeTmp\cmTC_758e5.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\CMakeTmp\cmTC_8feb0.vcxproj]
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.30.30709 для x64
   CMakeCCompilerABI.c
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_758e5.dir\Debug\\" /Fd"cmTC_758e5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
-  cmTC_758e5.vcxproj -> F:\Projects\C++\engine\engline-learn\build\CMakeFiles\CMakeTmp\Debug\cmTC_758e5.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8feb0.dir\Debug\\" /Fd"cmTC_8feb0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_8feb0.vcxproj -> F:\Projects\C++\engine\engine-learn\build\CMakeFiles\CMakeTmp\Debug\cmTC_8feb0.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: F:/Projects/C++/engine/engline-learn/build/CMakeFiles/CMakeTmp
+Change Dir: F:/Projects/C++/engine/engine-learn/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_be92d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4db19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine версии 17.0.0+c9eb9dd64 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engline-learn\build\CMakeFiles\CMakeTmp\cmTC_be92d.vcxproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой. [F:\Projects\C++\engine\engine-learn\build\CMakeFiles\CMakeTmp\cmTC_4db19.vcxproj]
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.30.30709 для x64
   CMakeCXXCompilerABI.cpp
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_be92d.dir\Debug\\" /Fd"cmTC_be92d.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_be92d.vcxproj -> F:\Projects\C++\engine\engline-learn\build\CMakeFiles\CMakeTmp\Debug\cmTC_be92d.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4db19.dir\Debug\\" /Fd"cmTC_4db19.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_4db19.vcxproj -> F:\Projects\C++\engine\engine-learn\build\CMakeFiles\CMakeTmp\Debug\cmTC_4db19.exe
 
 
 

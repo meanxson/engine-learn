@@ -1,0 +1,4 @@
+F:/Projects/C++/engine/engine-learn/build/CMakeFiles/ALL_BUILD.dir
+F:/Projects/C++/engine/engine-learn/build/CMakeFiles/ZERO_CHECK.dir
+F:/Projects/C++/engine/engine-learn/build/EngineCore/CMakeFiles/EngineCore.dir
+F:/Projects/C++/engine/engine-learn/build/Editor/CMakeFiles/Editor.dir
