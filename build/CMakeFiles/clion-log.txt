@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\Projects\C++\engine\engine-learn
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Including Win32 support
+-- Build spdlog: 1.9.2
+-- Build type: Release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/Projects/C++/engine/engine-learn/build

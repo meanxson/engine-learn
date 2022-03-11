@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_mappings">
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/GenerateMappings.cmake">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/mappings.h.in">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/platform.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_module.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\spdlog\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EngineCore\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/Editor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Editor\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

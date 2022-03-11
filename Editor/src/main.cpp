@@ -1,6 +1,16 @@
 #include <iostream>
-#include <EngineCore/Utils/test.hpp>
+#include <memory>
+#include <EngineCore/Application.hpp>
 
-int main(){
-    Engine::checkGlfw();
+
+class MyApp : public Engine::Application {
+    void on_update() override {
+    }
+};
+
+int main() {
+    auto app = std::make_unique<MyApp>();
+    int returnGet = app->start(1024, 768, "App");
+    std::cin.get();
+    return returnGet;
 }

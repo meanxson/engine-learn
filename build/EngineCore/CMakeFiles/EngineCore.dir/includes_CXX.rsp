@@ -1,1 +1,1 @@
--I"F:/Projects/C++/engine/engine-learn/EngineCore/includes" -I"F:/Projects/C++/engine/engine-learn/external/glfw/include"
+-IF:/Projects/C++/engine/engine-learn/EngineCore/includes -IF:/Projects/C++/engine/engine-learn/external/glfw/include -IF:/Projects/C++/engine/engine-learn/external/spdlog/include

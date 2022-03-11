@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/EngineCore.dir/src/EngineCore/Utils/test.cpp.obj"
-  "CMakeFiles/EngineCore.dir/src/EngineCore/Utils/test.cpp.obj.d"
+  "CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj"
   "libEngineCore.a"
   "libEngineCore.pdb"
 )

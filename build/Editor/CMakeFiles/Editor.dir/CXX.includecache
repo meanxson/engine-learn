@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../EngineCore/includes/EngineCore/Application.hpp
+
+F:/Projects/C++/engine/engine-learn/Editor/src/main.cpp
+iostream
+-
+memory
+-
+EngineCore/Application.hpp
+-
+

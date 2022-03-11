@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "../bin/Editor.exe.manifest"
   "../bin/Editor.pdb"
   "CMakeFiles/Editor.dir/src/main.cpp.obj"
-  "CMakeFiles/Editor.dir/src/main.cpp.obj.d"
   "libEditor.dll.a"
 )
 

@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libEngineCore.a CMakeFiles/EngineCore.dir/src/EngineCore/Utils/test.cpp.obj
+C:\mingw64\bin\ar.exe qc libEngineCore.a CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj
 C:\mingw64\bin\ranlib.exe libEngineCore.a
