@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp" "F:/Projects/C++/engine/engine-learn/build/EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj"
+  "F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.cpp" "F:/Projects/C++/engine/engine-learn/build/EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,8 +21,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../EngineCore/includes"
+  "../EngineCore/src"
   "../external/glfw/include"
   "../external/spdlog/include"
+  "../external/glad/include"
   )
 
 # The set of dependency files which are needed:
@@ -32,6 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
+  "F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

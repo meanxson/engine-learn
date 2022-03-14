@@ -422,6 +422,12 @@ engine-learn_IS_TOP_LEVEL:STATIC=ON
 engine-learn_SOURCE_DIR:STATIC=F:/Projects/C++/engine/engine-learn
 
 //Value Computed by CMake
+glad_BINARY_DIR:STATIC=F:/Projects/C++/engine/engine-learn/build/EngineCore/glad
+
+//Value Computed by CMake
+glad_SOURCE_DIR:STATIC=F:/Projects/C++/engine/engine-learn/external/glad
+
+//Value Computed by CMake
 spdlog_BINARY_DIR:STATIC=F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog
 
 //Value Computed by CMake
@@ -570,7 +576,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

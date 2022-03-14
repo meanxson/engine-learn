@@ -79,17 +79,33 @@ EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.s"
 	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\engine\engine-learn\EngineCore\src\EngineCore\Application.cpp -o CMakeFiles\EngineCore.dir\src\EngineCore\Application.cpp.s
 
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj: EngineCore/CMakeFiles/EngineCore.dir/flags.make
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj: EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj: ../EngineCore/src/EngineCore/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\engine\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj"
+	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EngineCore.dir\src\EngineCore\Window.cpp.obj -c F:\Projects\C++\engine\engine-learn\EngineCore\src\EngineCore\Window.cpp
+
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.i"
+	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Projects\C++\engine\engine-learn\EngineCore\src\EngineCore\Window.cpp > CMakeFiles\EngineCore.dir\src\EngineCore\Window.cpp.i
+
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.s"
+	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Projects\C++\engine\engine-learn\EngineCore\src\EngineCore\Window.cpp -o CMakeFiles\EngineCore.dir\src\EngineCore\Window.cpp.s
+
 # Object files for target EngineCore
 EngineCore_OBJECTS = \
-"CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj"
+"CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj" \
+"CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj"
 
 # External object files for target EngineCore
 EngineCore_EXTERNAL_OBJECTS =
 
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj
+EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/build.make
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\engine\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libEngineCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\engine\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libEngineCore.a"
 	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && $(CMAKE_COMMAND) -P CMakeFiles\EngineCore.dir\cmake_clean_target.cmake
 	cd /d F:\Projects\C++\engine\engine-learn\build\EngineCore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EngineCore.dir\link.txt --verbose=$(VERBOSE)
 

@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../EngineCore/includes/EngineCore/Application.hpp
+memory
+-
 
 F:/Projects/C++/engine/engine-learn/Editor/src/main.cpp
 iostream

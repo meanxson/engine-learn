@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
+  "../external/glad/CMakeLists.txt"
   "../external/glfw/CMake/cmake_uninstall.cmake.in"
   "../external/glfw/CMake/glfw3.pc.in"
   "../external/glfw/CMake/glfw3Config.cmake.in"
@@ -75,6 +76,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "EngineCore/glfw/src/glfw3.pc"
   "EngineCore/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "EngineCore/spdlog/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "EngineCore/glad/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Editor/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -85,5 +87,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "EngineCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "EngineCore/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
   "EngineCore/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
+  "EngineCore/glad/CMakeFiles/glad.dir/DependInfo.cmake"
   "Editor/CMakeFiles/Editor.dir/DependInfo.cmake"
   )

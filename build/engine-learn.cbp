@@ -5,7 +5,7 @@
 		<Option title="engine-learn"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\external\glad\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="F:/Projects/C++/engine/engine-learn/build"/>
@@ -86,8 +86,10 @@
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/EngineCore/includes"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/EngineCore/src"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/spdlog/include"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glad/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/Makefile&quot;  VERBOSE=1 EngineCore"/>
@@ -105,8 +107,10 @@
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/EngineCore/includes"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/EngineCore/src"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/spdlog/include"/>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glad/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/Makefile&quot;  VERBOSE=1 EngineCore/fast"/>
@@ -213,6 +217,38 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="glad">
+				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glad/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Projects/C++/engine/engine-learn/external/glad/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Editor">
 				<Option output="F:/Projects/C++/engine/engine-learn/build/bin/Editor.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/Editor"/>
@@ -257,6 +293,18 @@
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp">
 			<Option target="EngineCore"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.cpp">
+			<Option target="EngineCore"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.h">
+			<Option target="EngineCore"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/src/glad.c">
+			<Option target="glad"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/GenerateMappings.cmake">
 			<Option target="update_mappings"/>
@@ -692,6 +740,9 @@
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\EngineCore\"/>

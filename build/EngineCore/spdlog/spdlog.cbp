@@ -5,7 +5,7 @@
 		<Option title="spdlog"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\external\glad\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog"/>
@@ -384,6 +384,9 @@
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\EngineCore\"/>

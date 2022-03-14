@@ -7,9 +7,27 @@
 #IncludeRegexTransform: 
 
 ../EngineCore/includes/EngineCore/Application.hpp
+memory
+-
 
 ../EngineCore/includes/EngineCore/Log.hpp
 spdlog/spdlog.h
+-
+
+../EngineCore/includes/EngineCore/Window.h
+string
+-
+
+../external/glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../external/glad/include/glad/glad.h
+KHR/khrplatform.h
 -
 
 ../external/glfw/include/GLFW/glfw3.h
@@ -617,8 +635,18 @@ spdlog-inl.h
 F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp
 EngineCore/Application.hpp
 F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/EngineCore/Application.hpp
-GLFW/glfw3.h
--
 EngineCore/Log.hpp
+-
+EngineCore/Window.h
+-
+
+F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.cpp
+EngineCore/Window.h
+F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/EngineCore/Window.h
+EngineCore/Log.hpp
+F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/EngineCore/Log.hpp
+glad/glad.h
+-
+GLFW/glfw3.h
 -
 

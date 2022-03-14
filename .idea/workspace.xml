@@ -5,6 +5,7 @@
       <config projectName="engine-learn" targetName="EngineCore" />
       <config projectName="engine-learn" targetName="glfw" />
       <config projectName="engine-learn" targetName="uninstall" />
+      <config projectName="engine-learn" targetName="glad" />
       <config projectName="engine-learn" targetName="spdlog" />
       <config projectName="engine-learn" targetName="update_mappings" />
       <config projectName="engine-learn" targetName="Editor" />
@@ -17,68 +18,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fe5ca0-5d12-4161-9c2d-e8ca52be65e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Application.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Log.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/spdlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glad/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glad/include/KHR/khrplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glad/include/glad/glad.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/glad/src/glad.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Editor/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Editor/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Utils/test.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Utils/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Application.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Application.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Log.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Log.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/uninstall.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/uninstall.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/cmake_uninstall.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/cmake_uninstall.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/glfw3ConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/glfw3ConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/engine-learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/engine-learn.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +103,13 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\src" />
       <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\includes\EngineCore" />
       <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\includes" />
+      <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\src" />
       <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\src\EngineCore" />
     </key>
   </component>
@@ -139,6 +125,11 @@
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glad" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="engine-learn" TARGET_NAME="glad" CONFIG_NAME="Default">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -171,6 +162,7 @@
     <list>
       <item itemvalue="CMake Application.Editor" />
       <item itemvalue="CMake Application.EngineCore" />
+      <item itemvalue="CMake Application.glad" />
       <item itemvalue="CMake Application.uninstall" />
       <item itemvalue="CMake Application.glfw" />
       <item itemvalue="CMake Application.update_mappings" />
@@ -186,7 +178,11 @@
       <option name="presentableId" value="Default" />
       <updated>1646961130100</updated>
       <workItem from="1646961131577" duration="1365000" />
-      <workItem from="1647018514955" duration="5378000" />
+      <workItem from="1647018514955" duration="5481000" />
+      <workItem from="1647058363570" duration="2000" />
+      <workItem from="1647166175071" duration="23000" />
+      <workItem from="1647181991610" duration="3765000" />
+      <workItem from="1647207427889" duration="6719000" />
     </task>
     <servers />
   </component>

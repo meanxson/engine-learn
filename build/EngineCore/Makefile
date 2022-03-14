@@ -90,8 +90,8 @@ install/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -198,6 +198,30 @@ src/EngineCore/Application.cpp.s:
 	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.s
 .PHONY : src/EngineCore/Application.cpp.s
 
+src/EngineCore/Window.obj: src/EngineCore/Window.cpp.obj
+.PHONY : src/EngineCore/Window.obj
+
+# target to build an object file
+src/EngineCore/Window.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
+.PHONY : src/EngineCore/Window.cpp.obj
+
+src/EngineCore/Window.i: src/EngineCore/Window.cpp.i
+.PHONY : src/EngineCore/Window.i
+
+# target to preprocess a source file
+src/EngineCore/Window.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.i
+.PHONY : src/EngineCore/Window.cpp.i
+
+src/EngineCore/Window.s: src/EngineCore/Window.cpp.s
+.PHONY : src/EngineCore/Window.s
+
+# target to generate assembly for a file
+src/EngineCore/Window.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.s
+.PHONY : src/EngineCore/Window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -214,6 +238,9 @@ help:
 	@echo ... src/EngineCore/Application.obj
 	@echo ... src/EngineCore/Application.i
 	@echo ... src/EngineCore/Application.s
+	@echo ... src/EngineCore/Window.obj
+	@echo ... src/EngineCore/Window.i
+	@echo ... src/EngineCore/Window.s
 .PHONY : help
 
 

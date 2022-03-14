@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/cmake_install.cmake")
   include("F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog/cmake_install.cmake")
+  include("F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/cmake_install.cmake")
 
 endif()
 
