@@ -89,8 +89,9 @@ Editor_EXTERNAL_OBJECTS =
 bin/Editor.exe: Editor/CMakeFiles/Editor.dir/src/main.cpp.obj
 bin/Editor.exe: Editor/CMakeFiles/Editor.dir/build.make
 bin/Editor.exe: EngineCore/libEngineCore.a
-bin/Editor.exe: EngineCore/glfw/src/libglfw3.a
 bin/Editor.exe: EngineCore/spdlog/libspdlog.a
+bin/Editor.exe: EngineCore/libImGui.a
+bin/Editor.exe: EngineCore/glfw/src/libglfw3.a
 bin/Editor.exe: EngineCore/glad/libglad.a
 bin/Editor.exe: Editor/CMakeFiles/Editor.dir/linklibs.rsp
 bin/Editor.exe: Editor/CMakeFiles/Editor.dir/objects1.rsp

@@ -98,6 +98,15 @@ edit_cache:
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -107,15 +116,6 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -173,6 +173,188 @@ EngineCore: EngineCore/CMakeFiles/EngineCore.dir/rule
 EngineCore/fast:
 	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/build
 .PHONY : EngineCore/fast
+
+# Convenience name for target.
+EngineCore/CMakeFiles/ImGui.dir/rule:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EngineCore/CMakeFiles/ImGui.dir/rule
+.PHONY : EngineCore/CMakeFiles/ImGui.dir/rule
+
+# Convenience name for target.
+ImGui: EngineCore/CMakeFiles/ImGui.dir/rule
+.PHONY : ImGui
+
+# fast build rule for target.
+ImGui/fast:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/build
+.PHONY : ImGui/fast
+
+__/external/imgui/backends/imgui_impl_glfw.obj: __/external/imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.obj
+
+# target to build an object file
+__/external/imgui/backends/imgui_impl_glfw.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.obj
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.obj
+
+__/external/imgui/backends/imgui_impl_glfw.i: __/external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+__/external/imgui/backends/imgui_impl_glfw.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.i
+
+__/external/imgui/backends/imgui_impl_glfw.s: __/external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+__/external/imgui/backends/imgui_impl_glfw.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.s
+
+__/external/imgui/backends/imgui_impl_opengl3.obj: __/external/imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.obj
+
+# target to build an object file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.obj
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.obj
+
+__/external/imgui/backends/imgui_impl_opengl3.i: __/external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.i
+
+__/external/imgui/backends/imgui_impl_opengl3.s: __/external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.s
+
+__/external/imgui/imgui.obj: __/external/imgui/imgui.cpp.obj
+.PHONY : __/external/imgui/imgui.obj
+
+# target to build an object file
+__/external/imgui/imgui.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui.cpp.obj
+.PHONY : __/external/imgui/imgui.cpp.obj
+
+__/external/imgui/imgui.i: __/external/imgui/imgui.cpp.i
+.PHONY : __/external/imgui/imgui.i
+
+# target to preprocess a source file
+__/external/imgui/imgui.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui.cpp.i
+.PHONY : __/external/imgui/imgui.cpp.i
+
+__/external/imgui/imgui.s: __/external/imgui/imgui.cpp.s
+.PHONY : __/external/imgui/imgui.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui.cpp.s
+.PHONY : __/external/imgui/imgui.cpp.s
+
+__/external/imgui/imgui_demo.obj: __/external/imgui/imgui_demo.cpp.obj
+.PHONY : __/external/imgui/imgui_demo.obj
+
+# target to build an object file
+__/external/imgui/imgui_demo.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_demo.cpp.obj
+.PHONY : __/external/imgui/imgui_demo.cpp.obj
+
+__/external/imgui/imgui_demo.i: __/external/imgui/imgui_demo.cpp.i
+.PHONY : __/external/imgui/imgui_demo.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_demo.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_demo.cpp.i
+.PHONY : __/external/imgui/imgui_demo.cpp.i
+
+__/external/imgui/imgui_demo.s: __/external/imgui/imgui_demo.cpp.s
+.PHONY : __/external/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_demo.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_demo.cpp.s
+.PHONY : __/external/imgui/imgui_demo.cpp.s
+
+__/external/imgui/imgui_draw.obj: __/external/imgui/imgui_draw.cpp.obj
+.PHONY : __/external/imgui/imgui_draw.obj
+
+# target to build an object file
+__/external/imgui/imgui_draw.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_draw.cpp.obj
+.PHONY : __/external/imgui/imgui_draw.cpp.obj
+
+__/external/imgui/imgui_draw.i: __/external/imgui/imgui_draw.cpp.i
+.PHONY : __/external/imgui/imgui_draw.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_draw.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_draw.cpp.i
+.PHONY : __/external/imgui/imgui_draw.cpp.i
+
+__/external/imgui/imgui_draw.s: __/external/imgui/imgui_draw.cpp.s
+.PHONY : __/external/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_draw.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_draw.cpp.s
+.PHONY : __/external/imgui/imgui_draw.cpp.s
+
+__/external/imgui/imgui_tables.obj: __/external/imgui/imgui_tables.cpp.obj
+.PHONY : __/external/imgui/imgui_tables.obj
+
+# target to build an object file
+__/external/imgui/imgui_tables.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_tables.cpp.obj
+.PHONY : __/external/imgui/imgui_tables.cpp.obj
+
+__/external/imgui/imgui_tables.i: __/external/imgui/imgui_tables.cpp.i
+.PHONY : __/external/imgui/imgui_tables.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_tables.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_tables.cpp.i
+.PHONY : __/external/imgui/imgui_tables.cpp.i
+
+__/external/imgui/imgui_tables.s: __/external/imgui/imgui_tables.cpp.s
+.PHONY : __/external/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_tables.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_tables.cpp.s
+.PHONY : __/external/imgui/imgui_tables.cpp.s
+
+__/external/imgui/imgui_widgets.obj: __/external/imgui/imgui_widgets.cpp.obj
+.PHONY : __/external/imgui/imgui_widgets.obj
+
+# target to build an object file
+__/external/imgui/imgui_widgets.cpp.obj:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_widgets.cpp.obj
+.PHONY : __/external/imgui/imgui_widgets.cpp.obj
+
+__/external/imgui/imgui_widgets.i: __/external/imgui/imgui_widgets.cpp.i
+.PHONY : __/external/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_widgets.cpp.i:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_widgets.cpp.i
+.PHONY : __/external/imgui/imgui_widgets.cpp.i
+
+__/external/imgui/imgui_widgets.s: __/external/imgui/imgui_widgets.cpp.s
+.PHONY : __/external/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_widgets.cpp.s:
+	cd /d F:\Projects\C++\engine\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\ImGui.dir\build.make EngineCore/CMakeFiles/ImGui.dir/__/external/imgui/imgui_widgets.cpp.s
+.PHONY : __/external/imgui/imgui_widgets.cpp.s
 
 src/EngineCore/Application.obj: src/EngineCore/Application.cpp.obj
 .PHONY : src/EngineCore/Application.obj
@@ -235,6 +417,28 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... EngineCore
+	@echo ... ImGui
+	@echo ... __/external/imgui/backends/imgui_impl_glfw.obj
+	@echo ... __/external/imgui/backends/imgui_impl_glfw.i
+	@echo ... __/external/imgui/backends/imgui_impl_glfw.s
+	@echo ... __/external/imgui/backends/imgui_impl_opengl3.obj
+	@echo ... __/external/imgui/backends/imgui_impl_opengl3.i
+	@echo ... __/external/imgui/backends/imgui_impl_opengl3.s
+	@echo ... __/external/imgui/imgui.obj
+	@echo ... __/external/imgui/imgui.i
+	@echo ... __/external/imgui/imgui.s
+	@echo ... __/external/imgui/imgui_demo.obj
+	@echo ... __/external/imgui/imgui_demo.i
+	@echo ... __/external/imgui/imgui_demo.s
+	@echo ... __/external/imgui/imgui_draw.obj
+	@echo ... __/external/imgui/imgui_draw.i
+	@echo ... __/external/imgui/imgui_draw.s
+	@echo ... __/external/imgui/imgui_tables.obj
+	@echo ... __/external/imgui/imgui_tables.i
+	@echo ... __/external/imgui/imgui_tables.s
+	@echo ... __/external/imgui/imgui_widgets.obj
+	@echo ... __/external/imgui/imgui_widgets.i
+	@echo ... __/external/imgui/imgui_widgets.s
 	@echo ... src/EngineCore/Application.obj
 	@echo ... src/EngineCore/Application.i
 	@echo ... src/EngineCore/Application.s

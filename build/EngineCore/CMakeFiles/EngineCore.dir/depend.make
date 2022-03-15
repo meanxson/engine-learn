@@ -55,6 +55,9 @@ EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj: \
  ../external/glad/include/KHR/khrplatform.h \
  ../external/glad/include/glad/glad.h \
  ../external/glfw/include/GLFW/glfw3.h \
+ ../external/imgui/backends/imgui_impl_opengl3.h \
+ ../external/imgui/imconfig.h \
+ ../external/imgui/imgui.h \
  ../external/spdlog/include/spdlog/common-inl.h \
  ../external/spdlog/include/spdlog/common.h \
  ../external/spdlog/include/spdlog/details/backtracer-inl.h \

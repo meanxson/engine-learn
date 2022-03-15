@@ -25,6 +25,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../external/glfw/include"
   "../external/spdlog/include"
   "../external/glad/include"
+  "../EngineCore/../external"
+  "../EngineCore/../external/imgui"
   )
 
 # The set of dependency files which are needed:
@@ -36,6 +38,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "F:/Projects/C++/engine/engine-learn/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "F:/Projects/C++/engine/engine-learn/build/EngineCore/glad/CMakeFiles/glad.dir/DependInfo.cmake"
+  "F:/Projects/C++/engine/engine-learn/build/EngineCore/CMakeFiles/ImGui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

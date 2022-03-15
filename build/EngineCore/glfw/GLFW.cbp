@@ -41,6 +41,12 @@
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
@@ -63,6 +69,12 @@
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
 					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
