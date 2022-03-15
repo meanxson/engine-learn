@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../EngineCore/includes/EngineCore/Application.hpp
+memory
+-
+EngineCore/Event.h
+-
+
 ../EngineCore/includes/EngineCore/Event.h
 array
 -
@@ -81,6 +87,10 @@ GL/gl.h
 -
 GL/glext.h
 -
+
+../external/imgui/backends/imgui_impl_glfw.h
+imgui.h
+../external/imgui/backends/imgui.h
 
 ../external/imgui/backends/imgui_impl_opengl3.h
 imgui.h
@@ -662,6 +672,14 @@ spdlog-inl.h
 
 ../external/spdlog/include/spdlog/version.h
 
+F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp
+EngineCore/Application.hpp
+F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/EngineCore/Application.hpp
+EngineCore/Log.hpp
+-
+EngineCore/Window.h
+-
+
 F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.cpp
 EngineCore/Window.h
 F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/EngineCore/Window.h
@@ -674,5 +692,7 @@ GLFW/glfw3.h
 imgui/imgui.h
 -
 imgui/backends/imgui_impl_opengl3.h
+-
+imgui/backends/imgui_impl_glfw.h
 -
 

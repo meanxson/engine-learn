@@ -54,6 +54,7 @@ namespace Engine {
         GLFWwindow *m_pWindow = nullptr;
         WindowData m_data;
 
+        float m_background_color[4] = {1.f, 0.f, 0.f, 0.f};
     };
 }
 

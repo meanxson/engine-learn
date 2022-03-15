@@ -19,70 +19,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fe5ca0-5d12-4161-9c2d-e8ca52be65e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/includes_CXX.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/ImGui.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/imgui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.23.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/compiler_depend.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glad/CMakeFiles/glad.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glad/CMakeFiles/glad.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glad/glad.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glad/glad.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-noconfig.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/engine-learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/engine-learn.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +155,7 @@
       <workItem from="1647181991610" duration="3765000" />
       <workItem from="1647207427889" duration="7457000" />
       <workItem from="1647268618067" duration="137000" />
-      <workItem from="1647299968290" duration="6761000" />
+      <workItem from="1647299968290" duration="7957000" />
     </task>
     <servers />
   </component>
