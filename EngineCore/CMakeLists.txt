@@ -6,12 +6,12 @@ set(ENGINE_PROJECT_NAME EngineCore)
 set(ENGINE_PUBLIC_INCLUDES
         includes/EngineCore/Application.hpp
 		includes/EngineCore/Log.hpp
+		includes/EngineCore/Event.h
 		)
 
 
 set(ENGINE_PRIVATE_INCLUDES
-		includes/EngineCore/Window.h
-		)
+		includes/EngineCore/Window.h)
 
 set(ENGINE_PRIVATE_SOURCE
 		src/EngineCore/Application.cpp

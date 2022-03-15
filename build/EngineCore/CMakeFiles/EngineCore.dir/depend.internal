@@ -3,6 +3,7 @@
 
 EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj
  ../EngineCore/includes/EngineCore/Application.hpp
+ ../EngineCore/includes/EngineCore/Event.h
  ../EngineCore/includes/EngineCore/Log.hpp
  ../EngineCore/includes/EngineCore/Window.h
  ../external/spdlog/include/spdlog/common-inl.h
@@ -48,6 +49,7 @@ EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj
  ../external/spdlog/include/spdlog/version.h
  F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp
 EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
+ ../EngineCore/includes/EngineCore/Event.h
  ../EngineCore/includes/EngineCore/Log.hpp
  ../EngineCore/includes/EngineCore/Window.h
  ../external/glad/include/KHR/khrplatform.h

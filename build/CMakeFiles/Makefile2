@@ -180,8 +180,8 @@ EngineCore/spdlog/clean: EngineCore/spdlog/CMakeFiles/spdlog.dir/clean
 # Target rules for target EngineCore/CMakeFiles/EngineCore.dir
 
 # All Build rule for target.
-EngineCore/CMakeFiles/EngineCore.dir/all: EngineCore/glfw/src/CMakeFiles/glfw.dir/all
 EngineCore/CMakeFiles/EngineCore.dir/all: EngineCore/spdlog/CMakeFiles/spdlog.dir/all
+EngineCore/CMakeFiles/EngineCore.dir/all: EngineCore/glfw/src/CMakeFiles/glfw.dir/all
 EngineCore/CMakeFiles/EngineCore.dir/all: EngineCore/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/depend
 	$(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/build
@@ -339,8 +339,8 @@ EngineCore/glad/CMakeFiles/glad.dir/clean:
 
 # All Build rule for target.
 Editor/CMakeFiles/Editor.dir/all: EngineCore/CMakeFiles/EngineCore.dir/all
-Editor/CMakeFiles/Editor.dir/all: EngineCore/glfw/src/CMakeFiles/glfw.dir/all
 Editor/CMakeFiles/Editor.dir/all: EngineCore/spdlog/CMakeFiles/spdlog.dir/all
+Editor/CMakeFiles/Editor.dir/all: EngineCore/glfw/src/CMakeFiles/glfw.dir/all
 Editor/CMakeFiles/Editor.dir/all: EngineCore/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f Editor\CMakeFiles\Editor.dir\build.make Editor/CMakeFiles/Editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f Editor\CMakeFiles\Editor.dir\build.make Editor/CMakeFiles/Editor.dir/build

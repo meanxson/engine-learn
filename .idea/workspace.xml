@@ -18,49 +18,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fe5ca0-5d12-4161-9c2d-e8ca52be65e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glad/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glad/include/KHR/khrplatform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glad/include/glad/glad.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/external/glad/src/glad.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Event.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Editor/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Editor/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Application.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Application.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Log.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Log.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/linklibs.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/GLFW.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/EngineCore/glad/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glad/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/spdlog.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/engine-learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/engine-learn.cbp" afterDir="false" />
@@ -84,6 +62,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Release-EngineCore" />
   </component>
   <component name="ProjectId" id="26DbVgRcaGpiS1X3OVfh6Gcxd2n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -182,7 +163,9 @@
       <workItem from="1647058363570" duration="2000" />
       <workItem from="1647166175071" duration="23000" />
       <workItem from="1647181991610" duration="3765000" />
-      <workItem from="1647207427889" duration="6719000" />
+      <workItem from="1647207427889" duration="7457000" />
+      <workItem from="1647268618067" duration="137000" />
+      <workItem from="1647299968290" duration="4280000" />
     </task>
     <servers />
   </component>

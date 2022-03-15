@@ -291,13 +291,13 @@
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/includes/EngineCore/Log.hpp">
 			<Option target="EngineCore"/>
 		</Unit>
+		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/includes/EngineCore/Window.h">
+			<Option target="EngineCore"/>
+		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Application.cpp">
 			<Option target="EngineCore"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.cpp">
-			<Option target="EngineCore"/>
-		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/src/EngineCore/Window.h">
 			<Option target="EngineCore"/>
 		</Unit>
 		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/include/glad/glad.h">

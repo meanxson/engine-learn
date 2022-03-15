@@ -3,4 +3,5 @@
 
 Editor/CMakeFiles/Editor.dir/src/main.cpp.obj: \
  ../EngineCore/includes/EngineCore/Application.hpp \
+ ../EngineCore/includes/EngineCore/Event.h \
  ../Editor/src/main.cpp

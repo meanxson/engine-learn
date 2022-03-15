@@ -10,7 +10,7 @@ class MyApp : public Engine::Application {
 
 int main() {
     auto app = std::make_unique<MyApp>();
-    int returnGet = app->start(1024, 768, "App");
+    int returnCode = app->start(1024, 768, "App");
     std::cin.get();
-    return returnGet;
+    return returnCode;
 }

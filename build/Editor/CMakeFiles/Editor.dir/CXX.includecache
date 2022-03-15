@@ -9,6 +9,14 @@
 ../EngineCore/includes/EngineCore/Application.hpp
 memory
 -
+EngineCore/Event.h
+-
+
+../EngineCore/includes/EngineCore/Event.h
+array
+-
+functional
+-
 
 F:/Projects/C++/engine/engine-learn/Editor/src/main.cpp
 iostream
