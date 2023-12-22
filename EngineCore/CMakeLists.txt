@@ -7,15 +7,17 @@ set(ENGINE_PUBLIC_INCLUDES
         includes/EngineCore/Application.hpp
 		includes/EngineCore/Log.hpp
 		includes/EngineCore/Event.h
+		includes/EngineCore/ShaderProgram.h
 		)
 
 
 set(ENGINE_PRIVATE_INCLUDES
-		includes/EngineCore/Window.h)
+		includes/EngineCore/Window.h src/EngineCore/Render/ShaderProgram.cpp)
 
 set(ENGINE_PRIVATE_SOURCE
 		src/EngineCore/Application.cpp
 		src/EngineCore/Window.cpp
+		src/EngineCore/Render/ShaderProgram.cpp
 		)
 
 add_library(${ENGINE_PROJECT_NAME} STATIC

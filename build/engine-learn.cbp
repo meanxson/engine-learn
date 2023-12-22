@@ -435,6 +435,9 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Application.cpp">
 			<Option target="EngineCore"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/ShaderProgram.cpp">
+			<Option target="EngineCore"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Window.cpp">
 			<Option target="EngineCore"/>
 		</Unit>

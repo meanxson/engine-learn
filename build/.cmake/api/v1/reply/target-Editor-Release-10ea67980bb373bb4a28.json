@@ -44,25 +44,25 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 35,
+				"line" : 37,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 65,
+				"line" : 67,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 31,
+				"line" : 33,
 				"parent" : 3
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 39,
+				"line" : 41,
 				"parent" : 3
 			}
 		]
@@ -106,11 +106,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "glad::@79bcb1d7bac4015cf794"
+			"id" : "spdlog::@5ee41b83c3bf739538f1"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "spdlog::@5ee41b83c3bf739538f1"
+			"id" : "glad::@79bcb1d7bac4015cf794"
 		}
 	],
 	"id" : "Editor::@b58ce4ae47b5f4fc4f99",
