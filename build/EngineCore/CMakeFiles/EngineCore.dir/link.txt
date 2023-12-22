@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libEngineCore.a CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
-C:\mingw64\bin\ranlib.exe libEngineCore.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc libEngineCore.a CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ranlib.exe libEngineCore.a

@@ -1,1 +1,1 @@
--IF:/Projects/C++/engine/engine-learn/external/glfw/include -IF:/Projects/C++/engine/engine-learn/external/glfw/src -IF:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src
+-I"C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/include" -I"C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src" -I"C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"

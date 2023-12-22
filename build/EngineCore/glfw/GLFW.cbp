@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\spdlog\;CMake Files\external\spdlog\cmake\;CMake Files\external\glad\;CMake Files\EngineCore\;CMake Files\Editor\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw"/>
+				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uninstall">
-				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw"/>
+				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw">
-				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option output="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -38,26 +38,28 @@
 					<Add option="-DUNICODE"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/include"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw/fast">
-				<Option output="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option output="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -66,170 +68,172 @@
 					<Add option="-DUNICODE"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/include"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/external/glfw/src"/>
-					<Add directory="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/include"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src"/>
+					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="update_mappings">
-				<Option working_dir="F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src"/>
+				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/engine/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/engine-learn/build/EngineCore/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/GenerateMappings.cmake">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/CMake/GenerateMappings.cmake">
 			<Option target="update_mappings"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/include/GLFW/glfw3.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/include/GLFW/glfw3native.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/context.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/egl_context.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/egl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/init.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/input.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/input.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/internal.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/internal.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/mappings.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/mappings.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/mappings.h.in">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/mappings.h.in">
 			<Option target="update_mappings"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/monitor.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_init.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_joystick.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_joystick.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_joystick.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_monitor.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_platform.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/null_window.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/null_window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/osmesa_context.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/osmesa_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/platform.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/platform.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/platform.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/vulkan.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/vulkan.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/wgl_context.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/wgl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_init.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_joystick.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_joystick.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_joystick.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_module.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_module.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_monitor.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_platform.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_thread.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_thread.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_thread.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_thread.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_time.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_time.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_time.h">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_time.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/win32_window.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/win32_window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/window.c">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glfw\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/glfw3.pc.in">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/CMake/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/CMake/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/CMake/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glfw\src\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/spdlog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\spdlog\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/ide.cmake">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/spdlog/cmake/ide.cmake">
 			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/spdlog/cmake/utils.cmake">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/spdlog/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\external\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/external/glad/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/external/glad/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glad\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/EngineCore/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\EngineCore\"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/engine/engine-learn/Editor/CMakeLists.txt">
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/Editor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Editor\"/>
 		</Unit>
 	</Project>

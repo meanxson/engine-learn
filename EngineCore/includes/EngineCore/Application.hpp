@@ -10,9 +10,11 @@ namespace Engine {
     class Application {
     public:
         Application();
+
         virtual ~Application();
 
         Application(const Application &) = delete;
+
         Application(Application &&) = delete;
 
 
