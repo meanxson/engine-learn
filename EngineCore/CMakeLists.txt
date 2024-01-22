@@ -7,12 +7,12 @@ set(ENGINE_PUBLIC_INCLUDES
         includes/EngineCore/Application.hpp
 		includes/EngineCore/Log.hpp
 		includes/EngineCore/Event.h
-		includes/EngineCore/ShaderProgram.h
+		includes/EngineCore/Render/ShaderProgram.h
 		)
 
 
 set(ENGINE_PRIVATE_INCLUDES
-		includes/EngineCore/Window.h src/EngineCore/Render/ShaderProgram.cpp)
+		includes/EngineCore/Window.h src/EngineCore/Render/ShaderProgram.cpp includes/EngineCore/Render/VertexBuffer.h src/EngineCore/Render/VertexBuffer.cpp)
 
 set(ENGINE_PRIVATE_SOURCE
 		src/EngineCore/Application.cpp

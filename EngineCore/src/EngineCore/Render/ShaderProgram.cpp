@@ -2,7 +2,7 @@
 // Created by meanx on 22.12.2023.
 //
 
-#include "EngineCore/ShaderProgram.h"
+#include "EngineCore/Render/ShaderProgram.h"
 #include "EngineCore/Log.hpp"
 #include <glad/glad.h>
 

@@ -28,19 +28,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fe5ca0-5d12-4161-9c2d-e8ca52be65e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/ShaderProgram.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Render/ShaderProgram.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Render/VertexBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Render/VertexBuffer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Editor/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Editor/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/includes/EngineCore/ShaderProgram.h" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/includes/EngineCore/Render/ShaderProgram.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Render/ShaderProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Render/ShaderProgram.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EngineCore/src/EngineCore/Window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-2878b7c740d53c733fd7.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-fcc2adb4abc9b068f0d7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2023-12-22T01-36-40-0944.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2023-12-22T02-52-26-0249.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-Editor-Release-f0782ce681a0f0fb9f78.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-Editor-Release-10ea67980bb373bb4a28.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-EngineCore-Release-6f38aebae89150d88cdd.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-EngineCore-Release-993e7a35781890e13521.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-ImGui-Release-80af0884699f44282ada.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-ImGui-Release-3c1ed1101ef30b1af1c0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-fcc2adb4abc9b068f0d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2023-12-22T02-52-26-0249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-Editor-Release-10ea67980bb373bb4a28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/target-EngineCore-Release-993e7a35781890e13521.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/clion-Default-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/clion-Default-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/Editor.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/Editor/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/CMakeFiles/EngineCore.dir/build.make" afterDir="false" />
@@ -57,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/glfw/src/CMakeFiles/update_mappings.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/EngineCore/spdlog/CMakeFiles/spdlog.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/engine-learn.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/build/engine-learn.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/glfw" beforeDir="false" afterPath="$PROJECT_DIR$/external/glfw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/glfw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/external/glfw/README.md" afterDir="false" />
@@ -145,11 +149,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\includes\EngineCore\Render" />
       <recent name="C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\includes\EngineCore" />
       <recent name="C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\src\EngineCore\Render" />
       <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\includes\EngineCore" />
       <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\includes" />
-      <recent name="F:\Projects\C++\engine\engine-learn\EngineCore\src" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Editor">
@@ -169,11 +173,6 @@
       </method>
     </configuration>
     <configuration name="ImGui" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="engine-learn" TARGET_NAME="ImGui" CONFIG_NAME="Default">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -231,7 +230,11 @@
       <workItem from="1647268618067" duration="137000" />
       <workItem from="1647299968290" duration="7957000" />
       <workItem from="1703208948026" duration="4856000" />
-      <workItem from="1703226555094" duration="1174000" />
+      <workItem from="1703226555094" duration="6221000" />
+      <workItem from="1703266147704" duration="2140000" />
+      <workItem from="1703470804301" duration="1223000" />
+      <workItem from="1703555397005" duration="705000" />
+      <workItem from="1704215013086" duration="2000" />
     </task>
     <servers />
   </component>

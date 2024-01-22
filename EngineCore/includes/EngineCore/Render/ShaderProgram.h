@@ -2,14 +2,13 @@
 
 namespace EngineCore {
 
-
     class ShaderProgram {
     public:
         ShaderProgram(const char *vertex_shader_src, const char *fragment_shader_src);
 
         ShaderProgram(ShaderProgram &&);
 
-        ShaderProgram &operator=(ShaderProgram &&);
+        ShaderProgram &operator=(ShaderProgram &&) ;
 
         ~ShaderProgram();
 

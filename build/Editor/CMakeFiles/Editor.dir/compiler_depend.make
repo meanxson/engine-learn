@@ -179,8 +179,7 @@ Editor/CMakeFiles/Editor.dir/src/main.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
-  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/msplog.h
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h:
@@ -282,8 +281,6 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
-
-C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/msplog.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h:
 

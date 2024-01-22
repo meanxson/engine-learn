@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Application.cpp" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj" "gcc" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/ShaderProgram.cpp" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.obj" "gcc" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.obj.d"
+  "C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/VertexBuffer.cpp" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj" "gcc" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Window.cpp" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj" "gcc" "EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj.d"
   )
 

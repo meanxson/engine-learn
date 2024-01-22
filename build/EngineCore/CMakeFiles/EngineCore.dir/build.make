@@ -113,11 +113,27 @@ EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.s"
 	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\src\EngineCore\Render\ShaderProgram.cpp -o CMakeFiles\EngineCore.dir\src\EngineCore\Render\ShaderProgram.cpp.s
 
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj: EngineCore/CMakeFiles/EngineCore.dir/flags.make
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj: EngineCore/CMakeFiles/EngineCore.dir/includes_CXX.rsp
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/VertexBuffer.cpp
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj: EngineCore/CMakeFiles/EngineCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj"
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj -MF CMakeFiles\EngineCore.dir\src\EngineCore\Render\VertexBuffer.cpp.obj.d -o CMakeFiles\EngineCore.dir\src\EngineCore\Render\VertexBuffer.cpp.obj -c C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\src\EngineCore\Render\VertexBuffer.cpp
+
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.i"
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\src\EngineCore\Render\VertexBuffer.cpp > CMakeFiles\EngineCore.dir\src\EngineCore\Render\VertexBuffer.cpp.i
+
+EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.s"
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\engine-learn\EngineCore\src\EngineCore\Render\VertexBuffer.cpp -o CMakeFiles\EngineCore.dir\src\EngineCore\Render\VertexBuffer.cpp.s
+
 # Object files for target EngineCore
 EngineCore_OBJECTS = \
 "CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj" \
 "CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj" \
-"CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.obj"
+"CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.obj" \
+"CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj"
 
 # External object files for target EngineCore
 EngineCore_EXTERNAL_OBJECTS =
@@ -125,9 +141,10 @@ EngineCore_EXTERNAL_OBJECTS =
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Application.cpp.obj
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Window.cpp.obj
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.obj
+EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/build.make
 EngineCore/libEngineCore.a: EngineCore/CMakeFiles/EngineCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libEngineCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libEngineCore.a"
 	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && $(CMAKE_COMMAND) -P CMakeFiles\EngineCore.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build\EngineCore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EngineCore.dir\link.txt --verbose=$(VERBOSE)
 

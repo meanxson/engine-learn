@@ -106,11 +106,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "spdlog::@5ee41b83c3bf739538f1"
+			"id" : "glad::@79bcb1d7bac4015cf794"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "glad::@79bcb1d7bac4015cf794"
+			"id" : "spdlog::@5ee41b83c3bf739538f1"
 		}
 	],
 	"id" : "Editor::@b58ce4ae47b5f4fc4f99",

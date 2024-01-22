@@ -429,6 +429,9 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/includes/EngineCore/Log.hpp">
 			<Option target="EngineCore"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/includes/EngineCore/Render/VertexBuffer.h">
+			<Option target="EngineCore"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/includes/EngineCore/Window.h">
 			<Option target="EngineCore"/>
 		</Unit>
@@ -436,6 +439,9 @@
 			<Option target="EngineCore"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/ShaderProgram.cpp">
+			<Option target="EngineCore"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Render/VertexBuffer.cpp">
 			<Option target="EngineCore"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/engine-learn/EngineCore/src/EngineCore/Window.cpp">

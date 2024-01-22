@@ -1,8 +1,6 @@
 #include <iostream>
 #include <memory>
 #include <EngineCore/Application.hpp>
-#include <msplog.h>
-
 
 class MyApp : public Engine::Application {
     void on_update() override {

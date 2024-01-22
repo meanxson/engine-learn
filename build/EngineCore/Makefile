@@ -404,6 +404,30 @@ src/EngineCore/Render/ShaderProgram.cpp.s:
 	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/ShaderProgram.cpp.s
 .PHONY : src/EngineCore/Render/ShaderProgram.cpp.s
 
+src/EngineCore/Render/VertexBuffer.obj: src/EngineCore/Render/VertexBuffer.cpp.obj
+.PHONY : src/EngineCore/Render/VertexBuffer.obj
+
+# target to build an object file
+src/EngineCore/Render/VertexBuffer.cpp.obj:
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.obj
+.PHONY : src/EngineCore/Render/VertexBuffer.cpp.obj
+
+src/EngineCore/Render/VertexBuffer.i: src/EngineCore/Render/VertexBuffer.cpp.i
+.PHONY : src/EngineCore/Render/VertexBuffer.i
+
+# target to preprocess a source file
+src/EngineCore/Render/VertexBuffer.cpp.i:
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.i
+.PHONY : src/EngineCore/Render/VertexBuffer.cpp.i
+
+src/EngineCore/Render/VertexBuffer.s: src/EngineCore/Render/VertexBuffer.cpp.s
+.PHONY : src/EngineCore/Render/VertexBuffer.s
+
+# target to generate assembly for a file
+src/EngineCore/Render/VertexBuffer.cpp.s:
+	cd /d C:\Users\Khakim\Desktop\HobbyCode\engine-learn\build && $(MAKE) $(MAKESILENT) -f EngineCore\CMakeFiles\EngineCore.dir\build.make EngineCore/CMakeFiles/EngineCore.dir/src/EngineCore/Render/VertexBuffer.cpp.s
+.PHONY : src/EngineCore/Render/VertexBuffer.cpp.s
+
 src/EngineCore/Window.obj: src/EngineCore/Window.cpp.obj
 .PHONY : src/EngineCore/Window.obj
 
@@ -469,6 +493,9 @@ help:
 	@echo ... src/EngineCore/Render/ShaderProgram.obj
 	@echo ... src/EngineCore/Render/ShaderProgram.i
 	@echo ... src/EngineCore/Render/ShaderProgram.s
+	@echo ... src/EngineCore/Render/VertexBuffer.obj
+	@echo ... src/EngineCore/Render/VertexBuffer.i
+	@echo ... src/EngineCore/Render/VertexBuffer.s
 	@echo ... src/EngineCore/Window.obj
 	@echo ... src/EngineCore/Window.i
 	@echo ... src/EngineCore/Window.s
